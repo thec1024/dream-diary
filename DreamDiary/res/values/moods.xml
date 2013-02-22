@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="moods">
+        <item>Relaxed</item>
+        <item>Calm</item>
+		<item>Content</item>
+		<item>Relieved</item>
+		<item>Serene</item>
+        <item>Amused</item>
+		<item>Delighted</item>
+		<item>Elated</item>
+		<item>Excited</item>
+		<item>Happy</item>
+		<item>Joyful</item>
+		<item>Pleased</item>
+		<item>Empathetic</item>
+		<item>Loved/Loving</item>
+		<item>Hopeful</item>
+		<item>Proud</item>
+		<item>Satisfied</item>		
+		<item>Angry</item>
+		<item>Annoyed</item>
+		<item>Disdainful</item>
+		<item>Disgusted</item>
+		<item>Irrited</item>
+		<item>Anxous</item>
+		<item>Embarrassed</item>
+		<item>Fearful</item>
+		<item>Helpless</item>
+		<item>Powerless</item>
+		<item>Worrisome</item>
+		<item>Doubtful</item>
+		<item>Envious</item>
+		<item>Frustrated</item>
+		<item>Guilty</item>
+		<item>Shameful</item>
+		<item>Bored</item>
+		<item>Disappointed</item>
+		<item>Hurt</item>
+		<item>Sad</item>
+		<item>Stressed</item>
+		<item>Shocked</item>
+		<item>Tense</item>
+		<item>Trusting/Trusted</item>
+		<item>Surprised</item>
+    </string-array>
+</resources>

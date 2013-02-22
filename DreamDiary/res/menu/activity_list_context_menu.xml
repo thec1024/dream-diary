@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_edit_entry" 
+        android:title="@string/entry_edit_menu_label"
+        android:icon="@android:drawable/ic_menu_edit"
+        />
+	<item android:id="@+id/menu_export_entry"
+	    android:title="@string/entry_export_menu_label"
+	    android:icon="@android:drawable/ic_menu_send"
+	    />
+	<item android:id="@+id/menu_delete_entry"
+	    android:title="@string/entry_delete_menu_label"
+	    android:icon="@android:drawable/ic_menu_delete"
+	    />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference 
+        android:key="@string/preference_enable_auto_export"
+        android:summaryOn="@string/preference_enable_auto_export_summary_on"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/preference_enable_auto_export_title"
+        android:defaultValue="false"
+        />
+	<EditTextPreference
+	    android:key="@string/preference_export_path"
+	    android:summary="@string/preference_export_path_summary"
+	    android:icon="@android:drawable/ic_menu_save"
+	    android:title="@string/preference_export_path_title"
+	    android:defaultValue="@string/preference_export_path_default_value"
+	    />
+	<EditTextPreference
+	    android:key="@string/preference_auto_archival_frequency"
+	    android:summary="@string/preference_auto_archival_frequency_summary"
+	    android:icon="@android:drawable/ic_menu_day"
+	    android:title="@string/preference_auto_archival_frequency_title"
+	    android:defaultValue="30"
+	    />
+</PreferenceScreen>

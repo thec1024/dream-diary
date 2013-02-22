@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>General</item>
+        <item>Lucid</item>
+        <item>Nightmare</item>
+        <item>Day-dreams</item>
+        <item>Precognitive</item>
+    </string-array>
+</resources>

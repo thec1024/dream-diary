@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingPageActivity" >
+
+	<ListView
+	    android:id="@+id/diary_entries_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:choiceMode="singleChoice"
+	    android:divider="@android:drawable/divider_horizontal_bright"
+	    android:fitsSystemWindows="true" >
+	    
+	</ListView>
+</RelativeLayout>

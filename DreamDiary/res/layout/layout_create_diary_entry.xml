@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/create_entry_screen"
+    android:orientation="vertical" 
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideInset"
+    >
+    
+    <LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/entry_title_label"
+	        android:textStyle="bold|italic" 
+	        />
+
+		<EditText
+		    android:id="@+id/entry_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/entry_title_description"
+		    android:inputType="text" 
+		    />
+
+	</LinearLayout>
+	
+    <LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/entry_date_label"
+	        android:textStyle="bold|italic"
+	        />
+
+	   <TextView
+	       android:id="@+id/selected_date"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	        />
+	   <ImageButton android:id="@+id/select_date_button"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="@string/select_date_text"
+	       style="?android:attr/buttonStyleSmall"
+	       android:src="@android:drawable/ic_menu_my_calendar"
+	       android:contentDescription="@string/select_date_text"
+	       />
+
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/entry_sleep_duration_label"
+	        android:textStyle="bold|italic" 
+	        />
+
+		<EditText
+		    android:id="@+id/entry_sleep_duration"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/entry_sleep_duration_description"
+		    android:inputType="number"
+		    />
+
+	</LinearLayout>
+    
+	<LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/entry_type_label"
+	        android:textStyle="bold|italic" 
+	        />
+
+		<Spinner android:id="@+id/entry_type" 
+		    android:spinnerMode="dropdown"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:entries="@array/types"
+		    />
+	</LinearLayout>
+	
+    <LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/entry_mood_label"
+	        android:textStyle="bold|italic" 
+	        />
+
+		<Spinner android:id="@+id/entry_mood" 
+		    android:spinnerMode="dropdown"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:entries="@array/moods"
+		    />
+	</LinearLayout>
+	
+    <LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	>
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/entry_content_label"
+	        android:textStyle="bold|italic" 
+	        />
+
+		<EditText
+		    android:id="@+id/entry_content"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:minLines="3"
+		    android:maxLines="50"
+		    android:autoLink="all"
+		    android:hint="@string/entry_content_description"
+		    android:inputType="textMultiLine" />
+
+	</LinearLayout>
+	
+    <LinearLayout android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	>
+		<Button android:id="@+id/cancel_button" 
+		    android:text="@android:string/cancel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    />
+		<Button android:id="@+id/add_entry_button" 
+		    android:text="@string/add_entry_button_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    />
+		<Button android:id="@+id/delete_entry_button"
+		    android:text="@string/delete_entry_button_label"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:visibility="gone" 
+		    />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_criteria">
+        <!-- <item>Any</item> -->
+        <item>Title</item>
+        <item>Content</item>
+        <item>Mood</item>
+        <item>Type</item>
+        <!-- <item>Between dates</item>
+        <item>On date</item>-->
+    </string-array>
+</resources>
