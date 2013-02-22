@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dream Diary</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add_new">Add new entry</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_clear_search">Reset search</string>
+    <string name="menu_export_selected">Export selected</string>
+    
+    <string name="diary_entry_icon">Entry</string>
+    <string name="diary_entry_title_tag">diary_entry_title_tag</string>
+    <string name="diary_entry_short_desc_tag">diary_entry_short_desc_tag</string>
+    
+    <string name="entry_title_label">Title: </string>
+    <string name="entry_title_description">Describe the contents in brief</string>
+    <string name="entry_date_label">When: </string>
+    <string name="entry_date_description">When did you dream this</string>
+    <string name="entry_sleep_duration_label">Sleep duration (approx hrs): </string>
+    <string name="entry_sleep_duration_description">How many hours of sleep did you get</string>
+    <string name="entry_mood_label">Mood: </string>
+    <string name="entry_type_label">Type: </string>
+    <string name="entry_mood_description">Overall mood after having this dream</string>
+    <string name="entry_content_label">Dream Content: </string>
+    <string name="entry_content_description">Describe the dream in detail</string>
+    <string name="create_entry_button_label">Create</string>
+    <string name="add_entry_button_label">Add</string>
+    <string name="delete_entry_button_label">Delete</string>
+    <string name="update_entry_button_label">Update</string>
+    <string name="find_entry_button_label">Find</string>
+    <string name="select_date_text">Change</string>    
+    <string name="search_criteria_tag">search_criteria_tag</string>
+    <string name="search_value_tag">search_value_tag</string>
+    <string name="delete_tag">delete_tag</string>
+    <string name="title_activity_show_entry_details">Entry Details</string>
+    <string name="entry_query_label">Query: </string>
+    <string name="entry_query_description">Enter the query. \nEach query should be in field:value format. Multiple queries can be clubbed together with the use of logical operators. \nSupported operators are &amp;, | and !. Grouping with parenthesis ( and ) is also allowed.\n</string>
+    <string name="criteria_spec_tag">Criteria</string>
+    <string name="query_spec_tag">Query</string>
+    <string name="enter_search_criteria_tag">Enter search criteria</string>
+    <string name="entry_edit_menu_label">Edit</string>
+    <string name="entry_export_menu_label">Export</string>
+    <string name="entry_delete_menu_label">Delete</string>
+    
+    
+    <string name="no_search_results_message">No results found</string>
+    <string name="entry_creation_failure_message">Unable to save diary entry</string>
+    <string name="entry_delete_failure_message">Unable to delete the diary entry</string>
+    <string name="entry_update_failure_message">Unable to save changes</string>
+	<string name="unable_to_load_entries_message">Could not load entries…</string>
+	<string name="invalid_entry_title_message">Title is missing or is invalid</string>
+	<string name="invalid_entry_content_message">Content is missing or is invalid</string>
+	<string name="invalid_entry_mood_message">Selected mood is invalid</string>
+	<string name="invalid_entry_sleep_hrs_message">Sleep hours should be greater than 0 and less than 24</string>
+	<string name="confirmation_message">Are you sure?</string>
+	<string name="delete_successful_message">Deletion successful</string>
+	<string name="delete_failure_message">Deletion failed</string>
+	<string name="exporting_message">Exporting…</string>
+	<string name="generic_wait_message">Please wait…</string>
+	<string name="export_failure_message">Exporting failed</string>
+	<string name="no_entries_selected_message">No entries selected…</string>
+	
+	<string name="preference_enable_auto_export">enable_auto_export</string>
+	<string name="preference_enable_auto_export_title">Auto Export</string>
+	<string name="preference_enable_auto_export_summary_on">Export each entry automatically</string>
+	<string name="preference_enable_auto_export_summary_off">Do not export each entry automatically</string>
+	
+	<string name="preference_export_path">export_path</string>
+	<string name="preference_export_path_title">Save to</string>
+	<string name="preference_export_path_summary">Export location</string>
+	<string name="preference_export_path_default_value">/sdcard/.dreams</string>
+	
+	<string name="preference_auto_archival_frequency">auto_archival_frequency</string>
+	<string name="preference_auto_archival_frequency_title">Auto archival frequency (days)</string>
+	<string name="preference_auto_archival_frequency_summary">Archive files older than X days</string>
+	
+</resources>

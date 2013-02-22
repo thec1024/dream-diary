@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_add_new"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/menu_add_new"
+        android:icon="@drawable/ic_action_add_entry" 
+        />
+    
+    <item
+        android:id="@+id/menu_clear_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_clear_search"
+        android:icon="@drawable/ic_action_reset"
+        />
+    
+    <item
+        android:id="@+id/menu_export_selected"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_export_selected"
+        android:icon="@drawable/ic_action_export_selected" 
+        />
+    
+     <item
+        android:id="@+id/menu_search"
+        android:showAsAction="ifRoom"
+        android:title="@android:string/search_go"
+        android:icon="@android:drawable/ic_menu_search" 
+        />
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/ic_action_settings"
+        />
+    
+	<item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_exit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        />
+</menu>

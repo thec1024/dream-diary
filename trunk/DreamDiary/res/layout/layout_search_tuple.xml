@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:entries="@array/search_criteria"
+        android:spinnerMode="dropdown"
+        android:tag="@string/search_criteria_tag" />
+
+    <LinearLayout
+        android:id="@+id/tuple_view"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:tag="@string/search_value_tag" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:contentDescription="@string/delete_entry_button_label"
+        android:src="@android:drawable/ic_delete"
+        android:tag="@string/delete_tag"
+        android:text="@string/delete_entry_button_label" />
+
+</LinearLayout>
